@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/2d2aee31-240e-4a7d-8386-7e5351ec4578)# Elebram_Test
+# Elebram_Test
 Skill Test for Elebram (Creating Web Sales Using Odoo-14)
 
 Before you can install this web sales module, there are a few things that need to be prepared: 
