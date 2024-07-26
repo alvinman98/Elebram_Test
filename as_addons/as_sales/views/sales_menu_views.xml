@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data>
+        <menuitem id="as_sales_menu_root" name="Sales" sequence="1"/>
+        <menuitem id="as_sales_menu_act" name="Sales" parent="as_sales_menu_root" action="as_sale_order_action" sequence="1" groups="as_sales.group_sale_manager,as_sales.group_sale_user"/>
+        <menuitem id="as_sales_menu_categ" name="Catalogs" parent="as_sales_menu_root" sequence="2" groups="as_sales.group_sale_manager"/>
+        <menuitem id="menu_orders_customers" name="Customers" action="base.action_partner_customer_form" parent="as_sales_menu_root" sequence="3" groups="as_sales.group_sale_manager"/>
+        <menuitem id="as_config_menu_categ" name="Configuration" parent="as_sales_menu_root" sequence="4" groups="as_sales.group_sale_manager"/>
+        <menuitem id="as_uom_menu_act" name="Unit of Measures" parent="as_config_menu_categ" action="as_product_uom_action" sequence="1" groups="as_sales.group_sale_manager"/>
+        <menuitem id="as_uom_categ_menu_act" name="Unit of Measures Categories" parent="as_config_menu_categ" action="as_uom_category_action" sequence="2" groups="as_sales.group_sale_manager"/>
+        <menuitem id="as_product_categ_menu_act" name="Product Categories" parent="as_config_menu_categ" action="as_product_category_action" sequence="3" groups="as_sales.group_sale_manager"/>
+        <menuitem id="as_product_brand_menu_act" name="Product Brands" parent="as_config_menu_categ" action="as_product_brand_action" sequence="3" groups="as_sales.group_sale_manager"/>
+        <menuitem id="as_product_menu_act" name="Products" parent="as_sales_menu_categ" action="as_product_action" sequence="3" groups="as_sales.group_sale_manager"/>
+        <menuitem id="spend_band_menu_act" name="Spend Band Analysis" parent="as_sales_menu_categ" action="spend_band_analysis_action" sequence="3" groups="as_sales.group_sale_manager"/>
+    </data>
+</odoo>

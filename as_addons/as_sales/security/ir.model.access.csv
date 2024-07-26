@@ -1,0 +1,16 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_customer_sales_menu,Customers Sales Access,model_as_sale_order,group_sale_user,1,0,0,0
+access_customer_sale_order_line_menu,Customers Sales Lines Access,model_as_order_line,group_sale_user,1,0,0,0
+access_customer_uom_categ_menu,Customers UoM Category Access,model_as_uom_category,group_sale_user,1,0,0,0
+access_customer_product_categ_menu,Customers Product Category Access,model_as_product_category,group_sale_user,1,0,0,0
+access_customer_product_brand_menu,Customers Product Brand Access,model_as_product_brand,group_sale_user,1,0,0,0
+access_customer_product_uom_menu,Customers Product UoM Access,model_as_product_uom,group_sale_user,1,0,0,0
+access_customer_product_menu,Customers Product Access,model_as_product,group_sale_user,1,0,0,0
+access_sales_menu,Sales Access,model_as_sale_order,group_sale_manager,1,1,1,1
+access_sale_order_line_menu,Sales Lines Access,model_as_order_line,group_sale_manager,1,1,1,1
+access_uom_categ_menu,UoM Category Access,model_as_uom_category,group_sale_manager,1,1,1,1
+access_product_categ_menu,Product Category Access,model_as_product_category,group_sale_manager,1,1,1,1
+access_product_brand_menu,Product Brand Access,model_as_product_brand,group_sale_manager,1,1,1,1
+access_product_uom_menu,Product UoM Access,model_as_product_uom,group_sale_manager,1,1,1,1
+access_product_menu,Product Access,model_as_product,group_sale_manager,1,1,1,1
+access_spend_band_menu,Spend Band Access,model_spend_band_analysis,group_sale_manager,1,1,1,1
